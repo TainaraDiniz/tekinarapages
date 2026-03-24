@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<title>Portfólio - TEKINARA</title>
+
+<style>
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
+  color: white;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* HEADER */
+h1 {
+  font-size: 2.5rem;
+}
+
+.nick {
+  color: #ff4da6;
+}
+
+/* DESCRIÇÃO */
+.descricao {
+  margin: 20px 0;
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+/* CARD */
+.card {
+  background: rgba(255,255,255,0.05);
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 30px;
+
+  backdrop-filter: blur(10px);
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* BOTÃO */
+.btn {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 15px 25px;
+  background: #ff4da6;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* ÍCONES */
+.social {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social a {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.1);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.social a:hover {
+  background: #ff4da6;
+}
+
+/* RESPONSIVO */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .descricao {
+    font-size: 1rem;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>
+    Tainara Rafaella Diniz <br>
+    <span class="nick">(TEKINARA)</span>
+  </h1>
+
+  <p class="descricao">
+    Desenvolvedora de Landing Pages e Sites modernos com programação<br>
+    Estudante de Tecnologia da Informação na Universidade Federal de Mato Grosso do Sul.
+  </p>
+
+  <div class="card">
+    <h2>Criação de Sites Profissionais</h2>
+    <p>Transformo ideias em páginas bonitas, rápidas e que geram resultados.</p>
+
+    <a href="https://wa.me/5567999098766" class="btn">
+      <i class="fab fa-whatsapp"></i> Agendar pelo WhatsApp
+    </a>
+  </div>
+
+  <div class="social">
+    <a href="https://www.instagram.com/ttainarafaella?igsh=bXkyZW04eXRiNGNh&utm_source=qr"><i class="fab fa-instagram"></i></a>
+  </div>
+
+</div>
+
+</body>
+</html>
